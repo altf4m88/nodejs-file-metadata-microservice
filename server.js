@@ -1,5 +1,7 @@
-var express = require('express');
-var cors = require('cors');
+const express = require('express');
+const cors = require('cors');
+const multer = require('multer');
+const upload = multer();
 require('dotenv').config()
 
 var app = express();
